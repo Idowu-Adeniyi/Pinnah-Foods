@@ -83,7 +83,7 @@ footer p {
   overflow: hidden;
   width: 100%;
   height: 70vh;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .hero-img {
@@ -131,6 +131,8 @@ footer p {
   width: 100%;
   align-items: center;
   justify-content: center;
+  margin-right: -100px;
+  margin-left: -100px;
 }
 
 .navbar-container #main-navigation {
@@ -139,11 +141,22 @@ footer p {
   justify-content: center;
   border-bottom: solid 2px red;
   width: 100%;
+  height: 80px;
 }
 
+/* Logo container styling */
+.logo-container {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  margin-left: 100px;
+}
+
+/* Logo styling */
 .logo {
-  display: none;
-  width: 100%;
+  max-width: 65px;
+  height: auto;
+  display: block;
 }
 
 .mobile-menu,
@@ -152,12 +165,18 @@ footer p {
 }
 
 .contact-cta {
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #eb430b;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
 }
 
 main {
