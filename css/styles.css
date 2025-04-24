@@ -27,12 +27,12 @@ header {
 
 /* Footer styles */
 footer {
-  width: 100%; /* Ensures the footer takes full width */
-  border: solid 1px; /* Optional border for visibility */
+  width: 100%;
+  border: solid 1px;
   padding: 20px 0; /* Vertical padding */
   margin: 0; /* Remove margin */
   position: relative;
-  background-color: #f8f8f8; /* Optional: Add a background color to the footer */
+  background-color: #f8f8f8;
 }
 
 /* Flexbox container inside footer */
@@ -246,9 +246,153 @@ main {
   margin-right: 100px;
 }
 
-/*
-img {
-  max-width: 100%;
-  height: auto; 
+.about-preview p {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
 }
-*/
+
+.about-preview h2 {
+  display: flex;
+  /* border-left: solid 5px rgb(247, 138, 4); */
+  /* padding-left: 5px; */
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.about-preview a {
+  font-size: 18px;
+  display: flex;
+  color: E67817;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.about-preview > a:hover {
+  text-decoration: underline;
+}
+
+.grid-brands-container {
+  display: grid;
+  border: solid 1px orange;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 30px;
+}
+
+.brand-card {
+  position: relative;
+  border: solid 1px red;
+
+  /* height: auto; */
+}
+
+.circle-image {
+  width: 150px;
+  height: 150px;
+  border: solid 2px orange;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.yin-yang-express-img,
+.ice-cream-factory-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.brand-card .circle-image {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-card h3,
+.visit-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-card h3 {
+  margin-top: 130px;
+}
+
+.visit-page {
+  color: E67817;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.visit-page:hover {
+  text-decoration: underline;
+}
+
+.brand-card p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.our-brands h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.news-grid {
+  border: solid 1px orange;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 30px;
+  /* padding: 1rem; */
+}
+
+.news-image-card {
+  border: solid 1px orange;
+  border-radius: 10px;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 250px;
+  gap: 30px;
+}
+
+.news-card {
+  border: solid 1px orange;
+}
+
+/* Media Querry tablet*/
+/* @media (max-width: 991px) {
+  .grid-brands-container {
+    grid-template-columns: 1fr;
+  }
+} */
+
+/* Media Querry mobile*/
+/* @media (max-width: 768px) {
+  .grid-brands-container {
+    grid-template-columns: 1fr;
+  }
+} */
