@@ -260,7 +260,8 @@ main {
   /* padding-left: 5px; */
   text-align: center;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .about-preview a {
@@ -283,6 +284,7 @@ main {
   border: solid 1px orange;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+  margin-bottom: 50px;
   gap: 30px;
 }
 
@@ -355,8 +357,16 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 60px;
+}
+
+.news-preview h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
 }
 
 .news-grid {
@@ -366,7 +376,8 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   gap: 30px;
-  /* padding: 1rem; */
+  padding: 1rem;
+  margin-bottom: 50px;
 }
 
 .news-image-card {
@@ -379,8 +390,84 @@ main {
   gap: 30px;
 }
 
-.news-card {
+#comment-counter,
+#comment-link {
+  display: flex;
+  float: right;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+/* .news-card,
+h3,
+p,
+a,
+time,
+span.news-time,
+span.news-comment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: solid 1px orange;
+} */
+
+.career h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.career-container {
+  border: solid 1px E67817;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 0;
+  margin-bottom: 50px;
+  transform: translate(-50%, -50%s);
+  color: white;
+  background-color: E67817;
+  border-radius: 8px;
+}
+
+.career-container p {
+  font-size: large;
+}
+
+.career-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  /* margin-right: 15px; */
+  box-shadow: #000;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 15px;
+}
+
+.career-btn:hover {
+  background-color: white;
+  color: E67817;
+}
+
+.readmore-news {
+  color: E67817;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.readmore-news:hover {
+  text-decoration: underline;
 }
 
 /* Media Querry tablet*/
