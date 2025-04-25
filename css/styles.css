@@ -33,6 +33,7 @@ footer {
   margin: 0; /* Remove margin */
   position: relative;
   background-color: #f8f8f8;
+  /* background-color: white; */
 }
 
 /* Flexbox container inside footer */
@@ -139,6 +140,8 @@ footer p {
   padding-right: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
+  min-width: 150px;
+  white-space: nowrap;
 }
 
 /* Nav Links*/
@@ -232,6 +235,8 @@ footer p {
   align-items: center;
   justify-content: center;
   margin-right: 100px;
+  min-width: 150px;
+  white-space: nowrap;
 }
 
 .contact-cta:hover {
@@ -372,7 +377,6 @@ main {
 .news-grid {
   border: solid 1px orange;
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   gap: 30px;
@@ -380,14 +384,25 @@ main {
   margin-bottom: 50px;
 }
 
+.news-image-card img {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
 .news-image-card {
   border: solid 1px orange;
   border-radius: 10px;
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 250px;
   gap: 30px;
+}
+
+.news-date {
+  margin-bottom: 10px;
 }
 
 #comment-counter,
@@ -471,15 +486,78 @@ span.news-comment {
 }
 
 /* Media Querry tablet*/
-/* @media (max-width: 991px) {
+@media (max-width: 991px) {
   .grid-brands-container {
     grid-template-columns: 1fr;
   }
-} */
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+  main {
+    width: 100%;
+    padding: auto 0;
+    margin: 0;
+  }
+  .hero-text {
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    height: auto;
+  }
+
+  .hero-btn-learn,
+  .hero-btn-explore {
+    display: block;
+    margin: 5px;
+    background-color: E67817;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    box-shadow: #000;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-width: 150px;
+    white-space: nowrap;
+  }
+  .brand-card {
+    margin: 20px;
+  }
+
+  .news-card {
+    margin: 20px;
+  }
+
+  .career-container p {
+    font-size: medium;
+    padding-left: 10px;
+  }
+
+  .career-container .career-btn {
+    font-size: small;
+    width: 50%;
+    padding-left: 10px;
+  }
+
+  .flex-container-row p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-container-row h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 /* Media Querry mobile*/
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .grid-brands-container {
     grid-template-columns: 1fr;
   }
-} */
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+}
