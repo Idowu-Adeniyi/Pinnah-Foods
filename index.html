@@ -9,12 +9,12 @@
   <body>
     <header>
       <div class="navbar-container">
-        <img
+        <!-- <img
           id="mobile-cta"
           class="mobile-menu"
           src="images/openMenu.png"
           alt="Open menu"
-        />
+        /> -->
         <nav id="main-navigation" aria-label="Main navigation">
           <div class="logo-container">
             <a href="index.html"
@@ -24,8 +24,11 @@
                 alt="Pinnah Foods"
             /></a>
           </div>
-          <div>
+          <div id="openMenu">
             <i class="fa-solid fa-bars"></i>
+          </div>
+          <div id="closeMenu">
+            <i class="fa-solid fa-xmark"></i>
           </div>
           <!-- <img
             id="mobile-menu-exit"
@@ -33,7 +36,7 @@
             src="images/closeMenu.png"
             alt="Close menu"
           /> -->
-          <ul class="nav-ul">
+          <ul class="nav-ul" id="nav-ul-show">
             <li class="current"><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Our Brands</a></li>
