@@ -295,9 +295,7 @@ main {
 
 .brand-card {
   position: relative;
-  border: solid 1px red;
-
-  /* height: auto; */
+  border: solid 1px orange;
 }
 
 .circle-image {
@@ -549,6 +547,26 @@ span.news-comment {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .nav-ul,
+  .contact-cta {
+    display: none;
+  }
+
+  .logo {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+  }
+
+  .navbar-container .fa-solid {
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
   }
 }
 
