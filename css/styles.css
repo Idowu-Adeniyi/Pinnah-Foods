@@ -36,6 +36,10 @@ footer {
   /* background-color: white; */
 }
 
+.fa-brands {
+  margin-right: 5px;
+}
+
 /* Flexbox container inside footer */
 .flex-container-row {
   display: flex;
@@ -403,6 +407,15 @@ main {
   margin-bottom: 10px;
 }
 
+.news-time {
+  margin-left: 7px;
+}
+
+.fa-calendar-days,
+.fa-clock {
+  margin-right: 5px;
+}
+
 #comment-counter,
 #comment-link {
   display: flex;
@@ -567,6 +580,13 @@ span.news-comment {
     color: white;
     font-size: 25px;
     cursor: pointer;
+  }
+
+  .fa-brands {
+    margin-right: 5px;
+    position: absolute;
+    left: 16%;
+    padding-top: 4px;
   }
 }
 
