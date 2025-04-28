@@ -505,13 +505,20 @@ span.news-comment {
 }
 
 .contact-container {
-  border: solid 1px orange;
+  /* border: solid 1px orange; */
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
   padding: 0;
   width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-container #contact-email p {
+  color: E67817;
+  font-size: 20px;
 }
 
 /* Media Querry tablet*/
