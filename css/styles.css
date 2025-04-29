@@ -297,6 +297,25 @@ main {
   gap: 30px;
 }
 
+.team-container {
+  display: grid;
+  /* border: solid 1px orange; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 30px;
+}
+
+.team-card p {
+  margin-top: 140px;
+  margin-bottom: -90px;
+  padding: 5px;
+}
+
+.team-card .team-name {
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
 .brand-card {
   position: relative;
   border: solid 1px orange;
@@ -516,9 +535,10 @@ span.news-comment {
   margin-bottom: 20px;
 }
 
-.contact-container #contact-email p {
+.contact-container #contact-email p a {
   color: E67817;
   font-size: 20px;
+  text-decoration: none;
 }
 
 /* Media Querry tablet*/
