@@ -303,6 +303,46 @@ main {
   gap: 30px;
 }
 
+/**/
+.yin-yang-brand .brand-photo {
+  border: solid 1px orange;
+  margin: 10px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.ice-cream-brand .brand-photo {
+  border: solid 1px orange;
+  margin: 10px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.yin-yang-brand,
+.ice-cream-brand {
+  /* background-color: E67817; */
+  /* color: white; */
+  border-radius: 50px;
+}
+
+.yin-yang-brand .brand-photo img {
+  width: 100%;
+  /* height: auto; */
+  object-fit: cover;
+  display: block;
+  height: 250px;
+}
+
+.ice-cream-brand .brand-photo img {
+  width: 100%;
+  /* height: auto; */
+  object-fit: cover;
+  display: block;
+  height: 250px;
+}
+
+/**/
+
 .team-container {
   display: grid;
   /* border: solid 1px orange; */
@@ -502,7 +542,6 @@ span.news-comment {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px;
   padding: 0;
   margin-bottom: 50px;
   transform: translate(-50%, -50%s);
@@ -637,6 +676,11 @@ span.news-comment {
     padding-left: 10px;
   }
 
+  .career-container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .career-container .career-btn {
     font-size: small;
     width: 50%;
@@ -741,6 +785,13 @@ span.news-comment {
   .team-card {
     margin: 50px;
   }
+
+  .ice-cream-brand {
+    margin-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 /* Media Querry mobile*/
@@ -821,6 +872,11 @@ span.news-comment {
   .career-container p {
     font-size: medium;
     padding-left: 10px;
+  }
+
+  .career-container {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .career-container .career-btn {
@@ -922,5 +978,12 @@ span.news-comment {
     height: 100%;
     z-index: 10;
     object-fit: cover;
+  }
+
+  .ice-cream-brand {
+    margin-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
   }
 }
