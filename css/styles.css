@@ -545,8 +545,9 @@ span.news-comment {
   padding: 0;
   margin-bottom: 50px;
   transform: translate(-50%, -50%s);
-  color: white;
-  background-color: E67817;
+  color: E67817;
+  /* background-color: E67817; */
+  background-color: rgb(247, 239, 223);
   border-radius: 8px;
 }
 
@@ -558,22 +559,27 @@ span.news-comment {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
-  color: black;
+  background-color: E67817;
+  color: white;
   text-decoration: none;
   /* margin-right: 15px; */
   box-shadow: #000;
   border-radius: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin: 15px;
 }
 
 .career-btn:hover {
   background-color: white;
   color: E67817;
+}
+
+.brands {
+  margin-top: 100px;
+  margin-bottom: -20px;
 }
 
 .readmore-news {
@@ -679,6 +685,11 @@ span.news-comment {
   .career-container {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .brands {
+    margin-top: 100px;
+    margin-bottom: -20px;
   }
 
   .career-container .career-btn {
@@ -787,6 +798,13 @@ span.news-comment {
   }
 
   .ice-cream-brand {
+    margin-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .yin-yang-brand {
     margin-top: 90px;
     padding-left: 10px;
     padding-right: 10px;
@@ -981,6 +999,13 @@ span.news-comment {
   }
 
   .ice-cream-brand {
+    margin-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .yin-yang-brand {
     margin-top: 90px;
     padding-left: 10px;
     padding-right: 10px;

@@ -6,8 +6,6 @@ const mobileMenuClose = document.querySelector(".fa-xmark");
 const mobileMenuCloseBtn = document.getElementById("closeMenu");
 const hideNav = document.getElementById("nav-ul-show");
 
-//const contactBtn = document.querySelector(".contact-cta");
-
 function openBtn() {
   mobileMenuOpen.addEventListener("click", () => {
     showNav.style.display = "block";
