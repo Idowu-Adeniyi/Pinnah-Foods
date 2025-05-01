@@ -28,3 +28,12 @@ if (mobileMenuOpen) {
 if (mobileMenuClose) {
   closeBtn();
 }
+
+// Load more news feeds
+const loadMoreBtn = document.querySelector(".load-news-cta");
+const hiddenNewsCard = document.querySelectorAll(".loadNews");
+
+loadMoreBtn.addEventListener("click", () => {
+  hiddenNewsCard.forEach((loadNews) => loadNews.classList.remove("loadNews"));
+  loadMoreBtn.style.display = "none"; // hide button after all items are shown
+});

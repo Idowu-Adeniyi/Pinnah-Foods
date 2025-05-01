@@ -114,6 +114,29 @@ footer p {
   border-radius: 8px;
 }
 
+/**/
+/* .category-news-container {
+ 
+} */
+
+.category-news {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.category-news a {
+  text-decoration: none;
+}
+
+.loadNews {
+  display: none;
+}
+
+/**/
+
 .hero-btn {
   display: inline-block;
   margin-top: 1em;
@@ -246,6 +269,37 @@ footer p {
 .contact-cta:hover {
   background-color: white;
   color: E67817;
+}
+
+.load-news-cta {
+  border-radius: 5px;
+  background-color: E67817;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* display: flex; */
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* width: 10%; */
+  /* margin-right: 100px; */
+  /* min-width: 150px; */
+  white-space: nowrap;
+  margin: 0;
+  /* padding: 0;  */
+}
+
+.load-news-cta:hover {
+  background-color: black;
+  color: white;
+}
+
+.load-news-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 main {
@@ -473,10 +527,76 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  gap: 30px;
+  gap: 60px 30px;
   padding: 1rem;
   margin-bottom: 50px;
 }
+
+.news-grid-comment {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 60px 30px;
+  padding: 1rem;
+  margin-bottom: 50px;
+}
+
+.news-card-comment {
+  grid-column: span 2;
+}
+
+/**/
+.comment-form-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+}
+
+.comment-form-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.comment-form-card label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.comment-form-card input,
+.comment-form-card textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.comment-form-card textarea {
+  min-height: 200px;
+  resize: vertical;
+}
+
+.comment-form-card button {
+  align-self: flex-start;
+  padding: 10px 20px;
+  background-color: E67817;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.comment-form-card button:hover {
+  background-color: black;
+  color: white;
+}
+
+/**/
 
 .news-image-card img {
   display: block;
