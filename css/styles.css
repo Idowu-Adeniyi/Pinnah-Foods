@@ -324,7 +324,17 @@ main {
   /* padding-left: 5px; */
   text-align: center;
   justify-content: center;
-  padding-top: 150px;
+  padding-top: 170px;
+  padding-bottom: 50px;
+}
+
+.contact-preview h2 {
+  display: flex;
+  /* border-left: solid 5px rgb(247, 138, 4); */
+  /* padding-left: 5px; */
+  text-align: center;
+  justify-content: center;
+  padding-top: 80px;
   padding-bottom: 50px;
 }
 
@@ -355,6 +365,17 @@ main {
   grid-template-rows: auto;
   margin-bottom: 50px;
   gap: 30px;
+}
+
+.visit-brand a {
+  color: E67817;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.visit-brand a:hover {
+  text-decoration: underline;
 }
 
 /**/
@@ -999,8 +1020,8 @@ span.news-comment {
     white-space: nowrap;
   }
   .brand-card {
-    margin: 20px;
-    /* margin-bottom: 50px; */
+    /* margin: 20px; */
+    margin-bottom: 100px;
   }
 
   .news-card {
