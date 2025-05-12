@@ -271,6 +271,56 @@ footer p {
   color: E67817;
 }
 
+.showJob-cta {
+  border-radius: 5px;
+  background-color: E67817;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+  min-width: 150px;
+  white-space: nowrap;
+}
+
+.showJob-cta:hover {
+  background-color: white;
+  color: E67817;
+}
+
+.closeJob-btn {
+  display: none;
+}
+
+.closeJob-cta {
+  border-radius: 5px;
+  background-color: E67817;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+  min-width: 150px;
+  white-space: nowrap;
+}
+
+.closeJob-cta:hover {
+  background-color: white;
+  color: E67817;
+}
+
 .load-news-cta {
   border-radius: 5px;
   background-color: E67817;
@@ -770,6 +820,17 @@ button {
   font-size: large;
   border-left: solid 5px black;
   padding-left: 10px;
+}
+
+.job-card-description {
+  display: none;
+  border: solid 1px orange;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 50px;
+  margin-top: -50px;
+  border-top: none;
+  padding-top: 15px;
 }
 
 .job-card .location-text {

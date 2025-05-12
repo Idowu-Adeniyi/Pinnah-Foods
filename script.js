@@ -37,3 +37,32 @@ loadMoreBtn.addEventListener("click", () => {
   hiddenNewsCard.forEach((loadNews) => loadNews.classList.remove("loadNews"));
   loadMoreBtn.style.display = "none"; // hide button after all items are shown
 });
+
+//show Job Description
+const btnShowJob = document.querySelector(".showJob-cta");
+const btnCloseJob = document.querySelector(".closeJob-btn");
+const btnOpenJob = document.querySelector(".openJob-btn");
+// const btnHideJob = document.querySelector(".apply-now-cta");
+const ShowJob = document.querySelector(".job-card-description");
+
+function showJobBtn() {
+  btnShowJob.addEventListener("click", () => {
+    ShowJob.style.display = "block";
+    btnOpenJob.style.display = "none";
+    btnCloseJob.style.display = "block";
+  });
+}
+if (btnShowJob) {
+  showJobBtn();
+}
+
+function closeJobBtn() {
+  btnCloseJob.addEventListener("click", () => {
+    ShowJob.style.display = "none";
+    btnOpenJob.style.display = "block";
+    btnCloseJob.style.display = "none";
+  });
+}
+if (btnCloseJob) {
+  closeJobBtn();
+}
