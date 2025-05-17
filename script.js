@@ -29,7 +29,7 @@ if (mobileMenuClose) {
   closeBtn();
 }
 
-// Load more news feeds
+// Load more news feeds and jobs
 const loadMoreBtn = document.querySelector(".load-news-cta");
 const hiddenNewsCard = document.querySelectorAll(".loadNews");
 
@@ -42,6 +42,7 @@ loadMoreBtn.addEventListener("click", () => {
 const btnShowJob = document.querySelector(".showJob-cta");
 const btnCloseJob = document.querySelector(".closeJob-btn");
 const btnOpenJob = document.querySelector(".openJob-btn");
+const jobCard = document.querySelectorAll(".jobs-flex-container");
 // const btnHideJob = document.querySelector(".apply-now-cta");
 const ShowJob = document.querySelector(".job-card-description");
 
