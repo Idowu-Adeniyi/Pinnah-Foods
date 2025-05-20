@@ -1091,11 +1091,6 @@ button {
     text-align: center;
   }
 
-  /* .nav-ul,
-  .contact-cta {
-    display: block;
-  } */
-
   .logo {
     position: absolute;
     left: 5%;
@@ -1207,6 +1202,7 @@ button {
     top: 20%;
     width: 50%;
     height: auto;
+    left: 240px;
   }
 
   .hero-img {
@@ -1380,5 +1376,10 @@ button {
 
   .job-card-apply {
     margin-right: 15px;
+  }
+
+  .about-preview p {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
